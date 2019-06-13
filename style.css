@@ -1,0 +1,61 @@
+img{
+    height: 40px;
+}
+body ,.ownPriceDiv , .totalAfterShop , .fruitSection{
+    border: 1px solid black;
+    text-align: center;
+}
+.fruitSection{
+    background-image: linear-gradient(black,gray,black);
+
+}
+.headingDiv{
+  padding-top: 10px;
+  padding-bottom: 10px;
+    background-image: linear-gradient(black,gray,black);
+    color: white;
+  
+
+}
+
+.totalAfterShop input{
+     border-radius: 1em;
+     padding: 1.5em;
+     width:30px;
+     border: 1px solid black;
+}
+.totalAfterShop{
+    background-color: #efe3cc;
+}
+.ownPriceDiv h2 input{
+    border-radius: 1em;
+     padding: 1.5em;
+     width:30px;
+     border: 1px solid black;
+
+}
+/* .btnstyle{
+    background-color: white;
+  border-radius: 25px;
+    border: solid 3px white;
+}
+button{
+    border-radius: 25px;
+    padding: 1em;
+    margin: 0px;
+
+} */
+
+form{
+border-radius: 25px;
+}
+
+
+
+
+
+
+.fruitSection{
+    display: flex;
+    justify-content: space-between;
+}
