@@ -1,61 +1,116 @@
-img{
-    height: 40px;
-}
-body ,.ownPriceDiv , .totalAfterShop , .fruitSection{
-    border: 1px solid black;
-    text-align: center;
-}
-.fruitSection{
-    background-image: linear-gradient(black,gray,black);
-
-}
-.headingDiv{
-  padding-top: 10px;
-  padding-bottom: 10px;
-    background-image: linear-gradient(black,gray,black);
-    color: white;
-  
-
-}
-
-.totalAfterShop input{
-     border-radius: 1em;
-     padding: 1.5em;
-     width:30px;
+ img {
+     height: 90px;
+ }
+ 
+ body,
+ .ownPriceDiv,
+ .totalAfterShop,
+ .fruitSection {
      border: 1px solid black;
-}
-.totalAfterShop{
-    background-color: #efe3cc;
-}
-.ownPriceDiv h2 input{
-    border-radius: 1em;
-     padding: 1.5em;
-     width:30px;
-     border: 1px solid black;
-
-}
-/* .btnstyle{
-    background-color: white;
-  border-radius: 25px;
-    border: solid 3px white;
-}
-button{
-    border-radius: 25px;
-    padding: 1em;
-    margin: 0px;
-
+     text-align: center;
+     margin: 0px;
+ }
+ 
+ .fruitSection {
+     background-image: linear-gradient(#42474c, #5f677a, #42474c);
+ }
+ 
+ .headingDiv {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     background-image: linear-gradient(#42474c, #5f677a, #42474c);
+     color: white;
+ }
+ /* .totalAfterShop input {
+   
 } */
-
-form{
-border-radius: 25px;
-}
-
-
-
-
-
-
-.fruitSection{
-    display: flex;
-    justify-content: space-between;
-}
+ 
+ .totalAfterShop {
+     background-color: #efe3cc;
+     padding: 2em;
+ }
+ 
+ .ownPriceDiv h2 input {
+     border-radius: 2em;
+     padding: 1em;
+     width: 50px;
+     border: 1px solid black;
+     font-size: 14px;
+     font-weight: bolder;
+ }
+ 
+ .ownPriceDiv h2 {
+     font-weight: 1em;
+ }
+ 
+ .totalAfterShop span {
+     border: none;
+     color: red;
+     font-size: 25px;
+     background-color: #efe3cc;
+     border-radius: 1em;
+     width: 30px;
+     font-size: xx-large;
+ }
+ 
+ .fruits {
+     background-color: white;
+     padding-bottom: 1em;
+ }
+ 
+ .fruits p {
+     background-color: #346e34;
+     color: #f3ddb2;
+     padding: .4em;
+     margin-top: auto;
+     height: auto;
+     width: auto;
+ }
+ 
+ figcaption {
+     font-family: serif;
+     font-weight: bolder;
+     font-size: larger;
+ }
+ 
+ form {
+     display: inline-flex;
+     margin: 0 10px 0 10px;
+ }
+ 
+ form>button,
+ input {
+     padding: .8em;
+     border: none;
+ }
+ 
+ button {
+     background-image: linear-gradient(#3d4342, #545b5a);
+     color: white;
+     font-weight: bolder;
+     font-size: 1em;
+ }
+ 
+ form>input {
+     background-image: linear-gradient(#d5d4d4, #f3f3f3);
+     width: 80px;
+     padding: .5em;
+     text-align: center;
+     font-weight: bold;
+ }
+ 
+ form>.minus {
+     border-radius: 20px 0 0 20px;
+ }
+ 
+ form>.plus {
+     border-radius: 0 20px 20px 0;
+ }
+ 
+ .fruitSection {
+     display: flex;
+     justify-content: space-evenly;
+     padding: 2em;
+     padding-bottom: 3em;
+     flex-wrap: wrap;
+ }
