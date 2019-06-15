@@ -17,15 +17,15 @@
 
         <div class="ownPriceDiv">
             <h2>I have Rs.
-                <input type="number" value="0" min="0">
+                <input type="number" value="0" min="0" id="myPriceInput">
             </h2>
-
+            <!-- <button onclick="showInputValue()">show</button> -->
         </div>
 
         <div class="totalAfterShop">
             <h2>Your total is Rs.
                 <!-- <input type="text" value="0"> -->
-                <span>0</span>
+                <span id="totalPriceSpan">0</span>
             </h2>
 
         </div>
@@ -42,9 +42,9 @@
 
                 </figure>
                 <form>
-                    <button class="minus">-</button>
-                    <input type="number" min="0" value="0">
-                    <button class="plus">+</button>
+                    <button class="minus" onclick="decreaseValue()">-</button>
+                    <input type="number" min="0" value="0" id="number">
+                    <button class="plus" onclick="increaseValue()">+</button>
                 </form>
             </div>
 
@@ -60,7 +60,7 @@
                 </figure>
                 <form>
                     <button class="minus">-</button>
-                    <input type="number" min="0" value="0">
+                    <input type="number" min="0" value="0" id="number">
                     <button class="plus">+</button>
                 </form>
             </div>
@@ -71,7 +71,7 @@
                     <p>Rs. 07</p>
                 </div>
                 <figure>
-                    <img src="images/Banana.png" alt="banana">
+                    <img src="images/banana.png" alt="banana">
                     <figcaption>Banana</figcaption>
 
                 </figure>
@@ -86,6 +86,19 @@
     </div>
 
     <script src="script.js"></script>
+    <!-- codepen -->
+
+    <!-- <form>
+        <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
+
+
+        <input type="number" id="number" value="0" />
+
+
+
+        <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
+    </form> -->
+
 </body>
 
 </html>
