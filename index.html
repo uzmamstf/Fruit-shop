@@ -17,7 +17,7 @@
 
         <div class="ownPriceDiv">
             <h2>I have Rs.
-                <input type="number" value="0" min="0" id="myPriceInput">
+                <input type="number"  onchange="show()"  id="myPriceInput">
             </h2>
             <!-- <button onclick="showInputValue()">show</button> -->
         </div>
@@ -25,7 +25,7 @@
         <div class="totalAfterShop">
             <h2>Your total is Rs.
                 <!-- <input type="text" value="0"> -->
-                <span id="totalPriceSpan">0</span>
+                <span id="totalPriceSpan" >0</span>
             </h2>
 
         </div>
@@ -41,11 +41,11 @@
                     <figcaption>Apple</figcaption>
 
                 </figure>
-                <form>
-                    <button class="minus" onclick="decreaseValue()">-</button>
-                    <input type="number" min="0" value="0" id="number">
-                    <button class="plus" onclick="increaseValue()">+</button>
-                </form>
+                <div class="form">
+                    <button class="minus" onclick="appledecrease()">-</button>
+                    <input type="number"  id="numberapple">
+                    <button class="plus" onclick="appleincrement()">+</button>
+                </div class="form">
             </div>
 
             <!-- orange -->
@@ -58,11 +58,11 @@
                     <figcaption>Orange</figcaption>
 
                 </figure>
-                <form>
-                    <button class="minus">-</button>
-                    <input type="number" min="0" value="0" id="number">
-                    <button class="plus">+</button>
-                </form>
+                <div class="form">
+                    <button class="minus" onclick="orangedecrease()">-</button>
+                    <input type="number"  id="numberorange">
+                    <button class="plus" onclick="orangeincrement()">+</button>
+                </div>
             </div>
 
             <!-- banana -->
@@ -75,11 +75,11 @@
                     <figcaption>Banana</figcaption>
 
                 </figure>
-                <form>
-                    <button class="minus">-</button>
-                    <input type="number" min="0" value="0">
-                    <button class="plus">+</button>
-                </form>
+                <div class="form">
+                    <button class="minus" onclick="bananadecrease()">-</button>
+                    <input type="number" min="0" value="0"  id="numberbanana">
+                    <button class="plus" onclick="bananaincrement()">+</button>
+                </div>
             </div>
         </section>
 
@@ -88,7 +88,7 @@
     <script src="script.js"></script>
     <!-- codepen -->
 
-    <!-- <form>
+    <!-- <div class="form">
         <div class="value-button" id="decrease" onclick="decreaseValue()" value="Decrease Value">-</div>
 
 
@@ -97,7 +97,7 @@
 
 
         <div class="value-button" id="increase" onclick="increaseValue()" value="Increase Value">+</div>
-    </form> -->
+    </div class="form"> -->
 
 </body>
 

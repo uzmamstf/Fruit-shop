@@ -73,7 +73,7 @@
      font-size: larger;
  }
  
- form {
+ .form {
      display: inline-flex;
      margin: 0 10px 0 10px;
  }
@@ -91,7 +91,7 @@
      font-size: 1em;
  }
  
- form>input {
+ .form>input {
      background-image: linear-gradient(#d5d4d4, #f3f3f3);
      width: 80px;
      padding: .5em;
@@ -99,11 +99,11 @@
      font-weight: bold;
  }
  
- form>.minus {
+ .form>.minus {
      border-radius: 20px 0 0 20px;
  }
  
- form>.plus {
+ .form>.plus {
      border-radius: 0 20px 20px 0;
  }
  
